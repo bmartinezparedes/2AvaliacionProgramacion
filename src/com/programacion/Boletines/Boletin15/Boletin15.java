@@ -3,7 +3,7 @@ package com.programacion.Boletines.Boletin15;
 public class Boletin15 {
 
     public static void main(String[] args) {
-        Metodos m = new Metodos();
+        MetodosB15 m = new MetodosB15();
 
         //APARTADO 1
         /*
