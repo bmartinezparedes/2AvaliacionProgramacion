@@ -24,16 +24,16 @@ public class Boletin16 {
             opcion = JOptionPane.showInputDialog("MENU\n1 Engadir Numero\n2 Amosar\n3 Pedir altura\n4 Amosar datos altura\n0 Sair");
             switch (opcion) {
                 case "1":
-                    Metodos.engadirElementoNum(lista);
+                    Metodos16.engadirElementoNum(lista);
                     break;
                 case "2":
-                    Metodos.amosarNum(lista);
+                    Metodos16.amosarNum(lista);
                     break;
                 case "3":
-                    Metodos.añadirAltura(altura);
+                    Metodos16.añadirAltura(altura);
                     break;
                 case "4":
-                    Metodos.amosarAlt(altura);
+                    Metodos16.amosarAlt(altura);
                     break;
                 case "0":
                     System.exit(0);

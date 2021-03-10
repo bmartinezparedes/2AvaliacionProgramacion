@@ -3,7 +3,7 @@ package com.programacion.Boletines.Boletin16;
 import javax.swing.*;
 import java.util.ArrayList;
 
-public class Metodos {
+public class Metodos16 {
     public static void engadirElementoNum(ArrayList<Numeros> listaNum) {
         Numeros ele = pedirNum("Alumno a engadir:");
         listaNum.add(ele);
